@@ -3,7 +3,8 @@
 <!-- ============ HERO ============ -->
 <div align="center">
 
-<img src="assets/profile-banner.png" alt="Sunset mountain valley with a deer and pine trees" width="100%" />
+<img width="1983" height="793" alt="profile-banner" src="https://github.com/user-attachments/assets/e30e4659-42b5-40ee-9616-c7570cfb7d61" />
+
 
 <img src="https://komarev.com/ghpvc/?username=arun-pandian-p&style=flat-square&color=FF8A3D&label=PROFILE+VIEWS" alt="Profile views" />
 
@@ -24,7 +25,7 @@
 
 <br/><br/>
 
-[![Website](https://img.shields.io/badge/🌐_Portfolio-arunpandian.online-FF8A3D?style=flat-square)](https://arunpandian.online)
+[![Website](https://img.shields.io/badge/🌐_Portfolio-arunpandian.online-FF8A3D?style=flat-square)](https://developer.arunpandian.online)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/arunpandianp-dataanalyst)
 [![Email](https://img.shields.io/badge/Email-Say_Hello-B5179E?style=flat-square&logo=gmail&logoColor=white)](mailto:arunpandi47777@gmail.com)
 
