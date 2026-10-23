@@ -6,7 +6,7 @@
 <img width="1983" height="793" alt="profile-banner" src="https://github.com/user-attachments/assets/e30e4659-42b5-40ee-9616-c7570cfb7d61" />
 
 
-<img src="https://komarev.com/ghpvc/?username=arun-pandian-p&style=flat-square&color=FF8A3D&label=PROFILE+VIEWS" alt="Profile views" />
+<!-- <img src="https://komarev.com/ghpvc/?username=arun-pandian-p&style=flat-square&color=FF8A3D&label=PROFILE+VIEWS" alt="Profile views" /> -->
 
 <br/><br/>
 
