@@ -1,14 +1,36 @@
 <a id="top"></a>
 
+<!-- ═══════════════════════ HEADER BANNER ═══════════════════════ -->
 <div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1b27,100:70a5fd&height=200&section=header&text=ARUN%20PANDIAN&fontSize=60&fontColor=70a5fd&animation=fadeIn&fontAlignY=35&desc=Software%20Development%20Engineer%20%7C%20Java%20%26%20Spring%20Boot%20%E2%80%A2%20Backend%20%E2%80%A2%20System%20Design&descAlignY=55&descSize=18" width="100%" alt="Arun Pandian banner"/>
+</div>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:FF8A3D,100:B5179E&height=260&section=header&text=Arun%20Pandian&fontSize=64&fontColor=ffffff&fontAlignY=38&desc=Software%20Engineer%20%C2%B7%20Java%20%26%20Spring%20Boot&descAlignY=60&descSize=22&animation=fadeIn" width="100%" alt="Arun Pandian banner" />
+<!-- ═══════════════════════ TYPING ANIMATION ═══════════════════════ -->
+<div align="center">
+  <a href="https://github.com/arun-pandian-p">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=70A5FD&center=true&vCenter=true&multiline=false&repeat=true&width=740&lines=Designing+systems+that+scale+%E2%9A%99%EF%B8%8F;Java+%26+Spring+Boot+Backend+Developer+%F0%9F%9A%80;Clean+REST+APIs+%26+Scalable+Microservices;Solving+DSA+%26+System+Design+Daily+%F0%9F%A7%A0;Building+distributed%2C+fault-tolerant+backends;Open+to+SDE+opportunities+%F0%9F%91%8B" alt="Typing animation" />
+  </a>
+</div>
 
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=FF8A3D&center=true&vCenter=true&width=760&lines=Hey+there%2C+I'm+Arun+%F0%9F%91%8B;Software+Development+Engineer+%E2%9A%99%EF%B8%8F;Java+%26+Spring+Boot+Backend+Developer;Clean+REST+APIs+%26+Scalable+Services+%F0%9F%9A%80;DSA+%C3%97+System+Design+%F0%9F%A7%A0" alt="Typing animation" />
-</a>
+<!-- ═══════════════════════ BADGES ROW (core status) ═══════════════════════ -->
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=arun-pandian-p&style=for-the-badge&color=70a5fd&label=PROFILE+VIEWS" alt="Profile Views"/>
+  <img src="https://img.shields.io/github/followers/arun-pandian-p?style=for-the-badge&color=70a5fd&labelColor=1a1b27" alt="Followers"/>
+  <img src="https://img.shields.io/badge/Focus-Backend%20%26%20Spring%20Boot-70a5fd?style=for-the-badge&labelColor=1a1b27" alt="Focus"/>
+  <img src="https://img.shields.io/badge/Status-Open%20to%20Work-2ea043?style=for-the-badge&labelColor=1a1b27" alt="Open to Work"/>
+</div>
 
-<br/><br/>
+<!-- ═══════════════════════ BADGES ROW 2 (open source / repo counters) ═══════════════════════ -->
+<div align="center">
+  <img src="https://img.shields.io/badge/dynamic/json?url=https://api.github.com/users/arun-pandian-p&label=Public%20Repos&query=public_repos&color=bf91f3&style=for-the-badge&labelColor=1a1b27&logo=github" alt="Public Repos"/>
+  <img src="https://img.shields.io/github/stars/arun-pandian-p?affiliations=OWNER&style=for-the-badge&color=f2c811&labelColor=1a1b27&label=Stars%20Earned" alt="Stars"/>
+  <img src="https://img.shields.io/badge/dynamic/json?url=https://api.github.com/search/issues?q=author:arun-pandian-p+type:pr&label=PRs%20Opened&query=total_count&color=38bdae&style=for-the-badge&labelColor=1a1b27&logo=git" alt="PRs Opened"/>
+  <img src="https://img.shields.io/badge/Open%20Source-Contributor-2ea043?style=for-the-badge&labelColor=1a1b27&logo=opensourceinitiative&logoColor=white" alt="Open Source Contributor"/>
+</div>
+
+<br/>
+
+<div align="center">
 
 **Software engineer building scalable backend services and REST APIs with Java and Spring Boot.**<br/>
 I focus on clean architecture, data modeling, testing, and shipping production-ready code.
@@ -17,7 +39,7 @@ I focus on clean architecture, data modeling, testing, and shipping production-r
 
 <br/><br/>
 
-[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-arunpandian.online-FF8A3D?style=for-the-badge)](https://arunpandian.online)
+[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-arunpandian.online-70a5fd?style=for-the-badge&labelColor=1a1b27)](https://arunpandian.online)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/arunpandianp-dataanalyst)
 [![Email](https://img.shields.io/badge/Email-Say_Hello-B5179E?style=for-the-badge&logo=gmail&logoColor=white)](mailto:arunpandi47777@gmail.com)
 
@@ -113,12 +135,12 @@ I focus on clean architecture, data modeling, testing, and shipping production-r
 <!-- PINNED:START -->
 | Project | What it is | Stack | ⭐ | Last push |
 |---|---|---|---|---|
-| [**Zappy**](https://github.com/arun-pandian-p/Zappy) | — | TypeScript | 1 | 2026-10-18 |
+| [**arun-pandian-p**](https://github.com/arun-pandian-p/arun-pandian-p) | — | Python | 0 | 2026-10-26 |
 | [**IT-Helpdesk-and-incident-Management-Syst**](https://github.com/arun-pandian-p/IT-Helpdesk-and-incident-Management-System) | — | TypeScript | 0 | 2026-10-23 |
 | [**Ap-Desktop**](https://github.com/arun-pandian-p/Ap-Desktop) | — | TypeScript | 0 | 2026-10-20 |
-| [**xai-seizure-prediction-dashboard**](https://github.com/arun-pandian-p/xai-seizure-prediction-dashboard) | — | Python | 0 | 2026-08-28 |
-| [**carpedium**](https://github.com/carpediemtechofficial-oss/carpedium) | — | TypeScript | 0 | 2026-07-13 |
+| [**Zappy**](https://github.com/arun-pandian-p/Zappy) | — | TypeScript | 1 | 2026-10-18 |
 | [**developer.arunpandian.online**](https://github.com/arun-pandian-p/developer.arunpandian.online) | — | JavaScript | 0 | 2026-10-14 |
+| [**yuva**](https://github.com/arun-pandian-p/yuva) | — | Python | 0 | 2026-10-11 |
 <!-- PINNED:END -->
 
 <details>
@@ -223,7 +245,7 @@ _No recent public commits yet._
 
 <sub>_Last refreshed:_</sub>
 <!-- UPDATED:START -->
-<sub>_26 Oct 2026, 10:50 UTC_</sub>
+<sub>_26 Oct 2026, 10:56 UTC_</sub>
 <!-- UPDATED:END -->
 
 </div>
