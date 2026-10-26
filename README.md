@@ -136,7 +136,7 @@ I focus on clean architecture, data modeling, testing, and shipping production-r
   <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/arun-pandian-p/IT-Helpdesk-and-incident-Management-System">
-        <img src="https://raw.githubusercontent.com/arun-pandian-p/arun-pandian-p/main/assets/projects/it-helpdesk.jpg" width="100%" alt="IT Helpdesk and Incident Management System"/>
+        <img src="https://raw.githubusercontent.com/arun-pandian-p/arun-pandian-p/main/assets/projects/it-helpdesk.png" width="100%" alt="IT Helpdesk and Incident Management System"/>
       </a>
       <br/><br/>
       <b>📖 <a href="https://github.com/arun-pandian-p/IT-Helpdesk-and-incident-Management-System">IT-Helpdesk-and-incident-Management-System</a></b>
@@ -147,7 +147,7 @@ I focus on clean architecture, data modeling, testing, and shipping production-r
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/arun-pandian-p/Zappy">
-        <img src="https://raw.githubusercontent.com/arun-pandian-p/arun-pandian-p/main/assets/projects/zappy.jpg" width="100%" alt="Zappy Restaurant Operating System"/>
+        <img src="https://raw.githubusercontent.com/arun-pandian-p/arun-pandian-p/main/assets/projects/zappy.png" width="100%" alt="Zappy Restaurant Operating System"/>
       </a>
       <br/><br/>
       <b>📖 <a href="https://github.com/arun-pandian-p/Zappy">Zappy</a></b> &nbsp;·&nbsp; <a href="https://zappy-ten.vercel.app">🌐 <i>Live Demo</i></a>
@@ -160,7 +160,7 @@ I focus on clean architecture, data modeling, testing, and shipping production-r
   <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/arun-pandian-p/Ap-Desktop">
-        <img src="https://raw.githubusercontent.com/arun-pandian-p/arun-pandian-p/main/assets/projects/ap-desktop.jpg" width="100%" alt="Ap-Desktop Platform"/>
+        <img src="https://raw.githubusercontent.com/arun-pandian-p/arun-pandian-p/main/assets/projects/ap-desktop.png" width="100%" alt="Ap-Desktop Platform"/>
       </a>
       <br/><br/>
       <b>📖 <a href="https://github.com/arun-pandian-p/Ap-Desktop">Ap-Desktop</a></b>
