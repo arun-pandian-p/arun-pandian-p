@@ -132,7 +132,60 @@ I focus on clean architecture, data modeling, testing, and shipping production-r
 
 ## 🚀 Projects
 
-<sub>Auto-refreshed every 6 hours: the pinned repos, or the most recently pushed ones if nothing is pinned.</sub>
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/arun-pandian-p/IT-Helpdesk-and-incident-Management-System">
+        <img src="https://raw.githubusercontent.com/arun-pandian-p/arun-pandian-p/main/assets/projects/it-helpdesk.jpg" width="100%" alt="IT Helpdesk and Incident Management System"/>
+      </a>
+      <br/><br/>
+      <b>📖 <a href="https://github.com/arun-pandian-p/IT-Helpdesk-and-incident-Management-System">IT-Helpdesk-and-incident-Management-System</a></b>
+      <br/><br/>
+      Enterprise IT Service Desk &amp; Incident Management platform with ticket workflows, SLA monitoring, and role-based access.
+      <br/><br/>
+      <code>Java 21</code> <code>Spring Boot 3</code> <code>React 19</code> <code>TypeScript</code>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/arun-pandian-p/Zappy">
+        <img src="https://raw.githubusercontent.com/arun-pandian-p/arun-pandian-p/main/assets/projects/zappy.jpg" width="100%" alt="Zappy Restaurant Operating System"/>
+      </a>
+      <br/><br/>
+      <b>📖 <a href="https://github.com/arun-pandian-p/Zappy">Zappy</a></b> &nbsp;·&nbsp; <a href="https://zappy-ten.vercel.app">🌐 <i>Live Demo</i></a>
+      <br/><br/>
+      Real-time, multi-tenant restaurant operating system and ordering platform with live kitchen display and digital menus.
+      <br/><br/>
+      <code>TypeScript</code> <code>Next.js</code> <code>Supabase</code> <code>Tailwind</code>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/arun-pandian-p/Ap-Desktop">
+        <img src="https://raw.githubusercontent.com/arun-pandian-p/arun-pandian-p/main/assets/projects/ap-desktop.jpg" width="100%" alt="Ap-Desktop Platform"/>
+      </a>
+      <br/><br/>
+      <b>📖 <a href="https://github.com/arun-pandian-p/Ap-Desktop">Ap-Desktop</a></b>
+      <br/><br/>
+      Offline-first coding interview preparation &amp; career learning desktop platform combining code IDE and algorithm visualizer.
+      <br/><br/>
+      <code>Electron</code> <code>React 18</code> <code>TypeScript</code> <code>Spring Boot 3.4</code>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/arun-pandian-p/xai-seizure-prediction-dashboard">
+        <img src="https://raw.githubusercontent.com/arun-pandian-p/arun-pandian-p/main/assets/projects/xai-seizure.jpg" width="100%" alt="XAI Seizure Prediction Dashboard"/>
+      </a>
+      <br/><br/>
+      <b>📖 <a href="https://github.com/arun-pandian-p/xai-seizure-prediction-dashboard">xai-seizure-prediction-dashboard</a></b>
+      <br/><br/>
+      Explainable AI healthcare dashboard analyzing EEG brainwave signals with deep learning feature attribution heatmaps.
+      <br/><br/>
+      <code>Python</code> <code>PyTorch</code> <code>Streamlit</code> <code>XAI</code>
+    </td>
+  </tr>
+</table>
+
+<details>
+<summary><b>📋 All Recent Repositories (Auto-synced)</b></summary>
+<br/>
 
 <!-- PINNED:START -->
 | Project | What it is | Stack | ⭐ | Last push |
@@ -144,9 +197,6 @@ I focus on clean architecture, data modeling, testing, and shipping production-r
 | [**developer.arunpandian.online**](https://github.com/arun-pandian-p/developer.arunpandian.online) | — | JavaScript | 0 | 2026-10-14 |
 | [**yuva**](https://github.com/arun-pandian-p/yuva) | — | Python | 0 | 2026-10-11 |
 <!-- PINNED:END -->
-
-<details>
-<summary><b>➕ More work</b></summary>
 
 - [**carpedium**](https://github.com/carpediemtechofficial-oss/carpedium): TypeScript · organization repository
 - Browse everything on my [repositories page](https://github.com/arun-pandian-p?tab=repositories)
@@ -247,7 +297,7 @@ _No recent public commits yet._
 
 <sub>_Last refreshed:_</sub>
 <!-- UPDATED:START -->
-<sub>_26 Oct 2026, 10:56 UTC_</sub>
+<sub>_26 Oct 2026, 11:12 UTC_</sub>
 <!-- UPDATED:END -->
 
 </div>
