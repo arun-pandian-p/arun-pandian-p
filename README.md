@@ -113,12 +113,12 @@ I focus on clean architecture, data modeling, testing, and shipping production-r
 <!-- PINNED:START -->
 | Project | What it is | Stack | ⭐ | Last push |
 |---|---|---|---|---|
-| [**arun-pandian-p**](https://github.com/arun-pandian-p/arun-pandian-p) | — | Python | 0 | 2026-10-26 |
+| [**Zappy**](https://github.com/arun-pandian-p/Zappy) | — | TypeScript | 1 | 2026-10-18 |
 | [**IT-Helpdesk-and-incident-Management-Syst**](https://github.com/arun-pandian-p/IT-Helpdesk-and-incident-Management-System) | — | TypeScript | 0 | 2026-10-23 |
 | [**Ap-Desktop**](https://github.com/arun-pandian-p/Ap-Desktop) | — | TypeScript | 0 | 2026-10-20 |
-| [**Zappy**](https://github.com/arun-pandian-p/Zappy) | — | TypeScript | 1 | 2026-10-18 |
+| [**xai-seizure-prediction-dashboard**](https://github.com/arun-pandian-p/xai-seizure-prediction-dashboard) | — | Python | 0 | 2026-08-28 |
+| [**carpedium**](https://github.com/carpediemtechofficial-oss/carpedium) | — | TypeScript | 0 | 2026-07-13 |
 | [**developer.arunpandian.online**](https://github.com/arun-pandian-p/developer.arunpandian.online) | — | JavaScript | 0 | 2026-10-14 |
-| [**yuva**](https://github.com/arun-pandian-p/yuva) | — | Python | 0 | 2026-10-11 |
 <!-- PINNED:END -->
 
 <details>
@@ -223,7 +223,7 @@ _No recent public commits yet._
 
 <sub>_Last refreshed:_</sub>
 <!-- UPDATED:START -->
-<sub>_26 Oct 2026, 10:48 UTC_</sub>
+<sub>_26 Oct 2026, 10:50 UTC_</sub>
 <!-- UPDATED:END -->
 
 </div>
