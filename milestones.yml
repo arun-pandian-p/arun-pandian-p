@@ -1,0 +1,23 @@
+# Add an entry whenever you hit something worth showing.
+# Newest six appear on the README automatically.
+# Dates must be quoted strings: "YYYY" or "YYYY-MM".
+
+- date: "2026-06"
+  title: "B.Tech in AI & Data Science"
+  detail: "EASA College of Engineering & Technology, Coimbatore"
+  icon: "🎓"
+
+- date: "2025"
+  title: "Software Engineering Internship at Carpediem Tech Innovations"
+  detail: "Backend development internship"
+  icon: "🏢"
+
+- date: "2025"
+  title: "Software Engineering Internship at Rinex.AI"
+  detail: "AI-focused engineering internship"
+  icon: "🤖"
+
+- date: "2025"
+  title: "Forage software engineering simulations: Deloitte & TCS"
+  detail: "Completed software engineering job simulations"
+  icon: "🎯"
