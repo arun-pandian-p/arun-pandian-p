@@ -113,7 +113,12 @@ I focus on clean architecture, data modeling, testing, and shipping production-r
 <!-- PINNED:START -->
 | Project | What it is | Stack | ⭐ | Last push |
 |---|---|---|---|---|
-| Loading… | Refreshes on the next run | — | — | — |
+| [**arun-pandian-p**](https://github.com/arun-pandian-p/arun-pandian-p) | — | Python | 0 | 2026-10-26 |
+| [**IT-Helpdesk-and-incident-Management-Syst**](https://github.com/arun-pandian-p/IT-Helpdesk-and-incident-Management-System) | — | TypeScript | 0 | 2026-10-23 |
+| [**Ap-Desktop**](https://github.com/arun-pandian-p/Ap-Desktop) | — | TypeScript | 0 | 2026-10-20 |
+| [**Zappy**](https://github.com/arun-pandian-p/Zappy) | — | TypeScript | 1 | 2026-10-18 |
+| [**developer.arunpandian.online**](https://github.com/arun-pandian-p/developer.arunpandian.online) | — | JavaScript | 0 | 2026-10-14 |
+| [**yuva**](https://github.com/arun-pandian-p/yuva) | — | Python | 0 | 2026-10-11 |
 <!-- PINNED:END -->
 
 <details>
@@ -133,7 +138,7 @@ I focus on clean architecture, data modeling, testing, and shipping production-r
 <sub>Latest public commits, updated automatically.</sub>
 
 <!-- ACTIVITY:START -->
-_Loading recent commits…_
+_No recent public commits yet._
 <!-- ACTIVITY:END -->
 
 <div align="right"><a href="#top">⬆ back to top</a></div>
@@ -145,7 +150,14 @@ _Loading recent commits…_
 <sub>Edit `profile/milestones.yml` to add entries. The newest six appear here.</sub>
 
 <!-- MILESTONES:START -->
-_Loading milestones…_
+- 🎓 **B.Tech in AI & Data Science** · `2026-06`  
+  EASA College of Engineering & Technology, Coimbatore
+- 🏢 **Software Engineering Internship at Carpediem Tech Innovations** · `2025`  
+  Backend development internship
+- 🤖 **Software Engineering Internship at Rinex.AI** · `2025`  
+  AI-focused engineering internship
+- 🎯 **Forage software engineering simulations: Deloitte & TCS** · `2025`  
+  Completed software engineering job simulations
 <!-- MILESTONES:END -->
 
 <div align="right"><a href="#top">⬆ back to top</a></div>
@@ -211,7 +223,7 @@ _Loading milestones…_
 
 <sub>_Last refreshed:_</sub>
 <!-- UPDATED:START -->
-<sub>_pending first run_</sub>
+<sub>_26 Oct 2026, 10:48 UTC_</sub>
 <!-- UPDATED:END -->
 
 </div>
