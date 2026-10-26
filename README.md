@@ -2,7 +2,9 @@
 
 <!-- ═══════════════════════ HEADER BANNER ═══════════════════════ -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1b27,100:70a5fd&height=200&section=header&text=ARUN%20PANDIAN&fontSize=60&fontColor=70a5fd&animation=fadeIn&fontAlignY=35&desc=Software%20Development%20Engineer%20%7C%20Java%20%26%20Spring%20Boot%20%E2%80%A2%20Backend%20%E2%80%A2%20System%20Design&descAlignY=55&descSize=18" width="100%" alt="Arun Pandian banner"/>
+  <a href="https://github.com/arun-pandian-p">
+    <img src="https://raw.githubusercontent.com/arun-pandian-p/arun-pandian-p/main/assets/banner.svg" width="100%" alt="Arun Pandian banner"/>
+  </a>
 </div>
 
 <!-- ═══════════════════════ TYPING ANIMATION ═══════════════════════ -->

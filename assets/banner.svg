@@ -1,0 +1,103 @@
+<svg
+  width="100%"
+  height="200"
+  viewBox="0 0 854 200"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  style="z-index: 1; position: relative;"
+>
+  <style>
+    .title {
+      font-size: 54px;
+      font-weight: 800;
+      letter-spacing: 3px;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Fira Code', Helvetica, Arial, sans-serif;
+      fill: #70a5fd;
+      animation: fadeIn 1.2s ease-in-out forwards;
+      filter: drop-shadow(0 0 12px rgba(112, 165, 253, 0.45));
+    }
+    .desc {
+      font-size: 17px;
+      font-weight: 500;
+      letter-spacing: 0.5px;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+      fill: #a5c6fe;
+      animation: fadeIn 1.5s ease-in-out forwards;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-6px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0d14"/>
+      <stop offset="60%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+
+    <linearGradient id="waveGrad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0d1117" stop-opacity="0.8"/>
+      <stop offset="45%" stop-color="#1a233a" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#70a5fd" stop-opacity="0.55"/>
+    </linearGradient>
+
+    <linearGradient id="waveGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0d1117" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#162035" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#38bdae" stop-opacity="0.45"/>
+    </linearGradient>
+
+    <clipPath id="rounded">
+      <rect width="854" height="200" rx="12" ry="12"/>
+    </clipPath>
+  </defs>
+
+  <!-- Background base with subtle border -->
+  <g clip-path="url(#rounded)">
+    <rect width="854" height="200" fill="url(#bgGrad)"/>
+
+    <!-- Animated Waves -->
+    <g>
+      <path fill="url(#waveGrad1)">
+        <animate
+          attributeName="d"
+          dur="18s"
+          repeatCount="indefinite"
+          keyTimes="0;0.333;0.667;1"
+          calcMode="spline"
+          keySplines="0.2 0 0.2 1;0.2 0 0.2 1;0.2 0 0.2 1"
+          begin="0s"
+          values="M0 0 L 0 125 Q 213.5 165 427 135 T 854 155 L 854 0 Z;
+                  M0 0 L 0 145 Q 213.5 160 427 140 T 854 130 L 854 0 Z;
+                  M0 0 L 0 160 Q 213.5 130 427 165 T 854 135 L 854 0 Z;
+                  M0 0 L 0 125 Q 213.5 165 427 135 T 854 155 L 854 0 Z"
+        />
+      </path>
+
+      <path fill="url(#waveGrad2)">
+        <animate
+          attributeName="d"
+          dur="18s"
+          repeatCount="indefinite"
+          keyTimes="0;0.333;0.667;1"
+          calcMode="spline"
+          keySplines="0.2 0 0.2 1;0.2 0 0.2 1;0.2 0 0.2 1"
+          begin="-9s"
+          values="M0 0 L 0 135 Q 213.5 180 427 150 T 854 160 L 854 0 Z;
+                  M0 0 L 0 150 Q 213.5 120 427 125 T 854 140 L 854 0 Z;
+                  M0 0 L 0 140 Q 213.5 130 427 150 T 854 165 L 854 0 Z;
+                  M0 0 L 0 135 Q 213.5 180 427 150 T 854 160 L 854 0 Z"
+        />
+      </path>
+    </g>
+
+    <!-- Subtle accent border -->
+    <rect width="854" height="200" rx="12" ry="12" fill="none" stroke="#70a5fd" stroke-opacity="0.2" stroke-width="1.5"/>
+
+    <!-- Header Text -->
+    <text text-anchor="middle" dominant-baseline="middle" x="50%" y="37%" class="title">ARUN PANDIAN</text>
+    <text text-anchor="middle" dominant-baseline="middle" x="50%" y="58%" class="desc">Software Development Engineer | Java &amp; Spring Boot &#8226; Backend &#8226; System Design</text>
+  </g>
+</svg>
