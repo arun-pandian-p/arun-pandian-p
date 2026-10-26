@@ -55,7 +55,7 @@ I focus on clean architecture, data modeling, testing, and shipping production-r
 
 ## 🙋 About
 
-<img align="right" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="200" alt="Coding gif" />
+<img align="right" src="https://raw.githubusercontent.com/arun-pandian-p/arun-pandian-p/main/assets/profile-circle.png" width="180" alt="Arun Pandian" />
 
 - ☕ **Backend-first**: REST APIs with **Java** and **Spring Boot**, with validation, security, and tests
 - 🗄️ **Data layer**: schema design and queries in **PostgreSQL** and **MySQL**, with **JPA / Hibernate**
