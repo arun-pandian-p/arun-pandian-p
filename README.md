@@ -191,7 +191,7 @@ I focus on clean architecture, data modeling, testing, and shipping production-r
 | Project | What it is | Stack | ⭐ | Last push |
 |---|---|---|---|---|
 | [**Zappy**](https://github.com/arun-pandian-p/Zappy) | — | TypeScript | 1 | 2026-10-18 |
-| [**IT-Helpdesk-and-incident-Management-Syst**](https://github.com/arun-pandian-p/IT-Helpdesk-and-incident-Management-System) | — | TypeScript | 0 | 2026-10-23 |
+| [**IT-Helpdesk-and-incident-Management-Syst**](https://github.com/arun-pandian-p/IT-Helpdesk-and-incident-Management-System) | ITIL-inspired IT Helpdesk & Incident Management System — FastAPI, React 19, PostgreSQL, Do | TypeScript | 0 | 2026-10-23 |
 | [**Ap-Desktop**](https://github.com/arun-pandian-p/Ap-Desktop) | — | TypeScript | 0 | 2026-10-20 |
 | [**xai-seizure-prediction-dashboard**](https://github.com/arun-pandian-p/xai-seizure-prediction-dashboard) | — | Python | 0 | 2026-08-28 |
 | [**carpedium**](https://github.com/carpediemtechofficial-oss/carpedium) | — | TypeScript | 0 | 2026-07-13 |
@@ -297,7 +297,7 @@ _No recent public commits yet._
 
 <sub>_Last refreshed:_</sub>
 <!-- UPDATED:START -->
-<sub>_29 Oct 2026, 05:00 UTC_</sub>
+<sub>_29 Oct 2026, 12:34 UTC_</sub>
 <!-- UPDATED:END -->
 
 </div>
