@@ -195,7 +195,6 @@ I focus on clean architecture, data modeling, testing, and shipping production-r
 | [**Ap-Desktop**](https://github.com/arun-pandian-p/Ap-Desktop) | — | TypeScript | 0 | 2026-10-20 |
 | [**xai-seizure-prediction-dashboard**](https://github.com/arun-pandian-p/xai-seizure-prediction-dashboard) | — | Python | 0 | 2026-08-28 |
 | [**carpedium**](https://github.com/carpediemtechofficial-oss/carpedium) | — | TypeScript | 0 | 2026-07-13 |
-| [**developer.arunpandian.online**](https://github.com/arun-pandian-p/developer.arunpandian.online) | — | JavaScript | 0 | 2026-10-14 |
 <!-- PINNED:END -->
 
 - [**carpedium**](https://github.com/carpediemtechofficial-oss/carpedium): TypeScript · organization repository
@@ -297,7 +296,7 @@ _No recent public commits yet._
 
 <sub>_Last refreshed:_</sub>
 <!-- UPDATED:START -->
-<sub>_01 Nov 2026, 05:12 UTC_</sub>
+<sub>_01 Nov 2026, 12:54 UTC_</sub>
 <!-- UPDATED:END -->
 
 </div>
