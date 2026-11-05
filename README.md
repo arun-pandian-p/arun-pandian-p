@@ -1,9 +1,11 @@
+
 <a id="top"></a>
 
 <!-- ═══════════════════════ HEADER BANNER ═══════════════════════ -->
 <div align="center">
   <a href="https://github.com/arun-pandian-p">
-    <img src="https://raw.githubusercontent.com/arun-pandian-p/arun-pandian-p/main/assets/banner.svg" width="100%" alt="Arun Pandian banner"/>
+    <img width="2048" height="768" alt="Arun Pandian Developer Portfolio Banner (1)" src="https://github.com/user-attachments/assets/1dd1e66b-6a62-4f78-983b-1fe67f1b55b5" />
+    <!-- <img src="https://raw.githubusercontent.com/arun-pandian-p/arun-pandian-p/main/assets/banner.svg" width="100%" alt="Arun Pandian banner"/> -->
   </a>
 </div>
 
