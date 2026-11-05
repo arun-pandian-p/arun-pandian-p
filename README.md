@@ -197,11 +197,11 @@ I focus on clean architecture, data modeling, testing, and shipping production-r
 <!-- PINNED:START -->
 | Project | What it is | Stack | ⭐ | Last push |
 |---|---|---|---|---|
-| [**Zappy**](https://github.com/arun-pandian-p/Zappy) | Multi-tenant restaurant SaaS with QR menus, order management, table operations, and real-time kitchen workflows. | TypeScript,Java SpringBoot,JPA | 1 | 2026-10-31 |
-| [**IT Helpdesk & Incident Management**](https://github.com/arun-pandian-p/IT-Helpdesk-and-incident-Management-System) | ITIL-inspired service desk platform with incident tracking, ticket lifecycle management, SLA monitoring, and role-based access control. | TypeScript,Java Springboot,JPA,Supabase(Postgres) | 0 | 2026-10-23 |
-| [**AP Desktop**](https://github.com/arun-pandian-p/Ap-Desktop) | Offline-first developer learning platform featuring an integrated code editor, coding practice, and algorithm visualization. | React,Electron,Postgres,Java SpringBoot | 0 | 2026-10-20 |
-| [**XAI Seizure Prediction Dashboard**](https://github.com/arun-pandian-p/xai-seizure-prediction-dashboard) | Explainable AI application for EEG-based seizure prediction using deep learning and model interpretability visualizations. | Python,Gradio,SHAP-LIME | 0 | 2026-08-28 |
-| [**Carpe Diem**](https://github.com/carpediemtechofficial-oss/carpedium) | Company web platform featuring modern frontend experiences and backend integrations for business enquiries and administration. | TypeScript | 0 | 2026-07-13 |
+| [**Zappy**](https://github.com/arun-pandian-p/Zappy) | Multi-tenant restaurant SaaS platform featuring QR digital menus, table management, order  | TypeScript | 1 | 2026-10-31 |
+| [**IT-Helpdesk-and-incident-Management-Syst**](https://github.com/arun-pandian-p/IT-Helpdesk-and-incident-Management-System) | Enterprise IT service management platform featuring incident tracking, ticket lifecycle wo | TypeScript | 0 | 2026-10-23 |
+| [**Ap-Desktop**](https://github.com/arun-pandian-p/Ap-Desktop) | — | TypeScript | 0 | 2026-10-20 |
+| [**xai-seizure-prediction-dashboard**](https://github.com/arun-pandian-p/xai-seizure-prediction-dashboard) | Explainable AI healthcare application for EEG-based seizure prediction, combining deep lea | Python | 0 | 2026-11-05 |
+| [**carpedium**](https://github.com/carpediemtechofficial-oss/carpedium) | — | TypeScript | 0 | 2026-07-13 |
 <!-- PINNED:END -->
 
 - [**Carpe Diem**](https://github.com/carpediemtechofficial-oss/carpedium): TypeScript · Organization repository
@@ -303,7 +303,7 @@ _No recent public commits yet._
 
 <sub>_Last refreshed:_</sub>
 <!-- UPDATED:START -->
-<sub>_05 Nov 2026, 14:21 UTC_</sub>
+<sub>_05 Nov 2026, 23:27 UTC_</sub>
 <!-- UPDATED:END -->
 
 </div>
