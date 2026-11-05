@@ -134,6 +134,7 @@ I focus on clean architecture, data modeling, testing, and shipping production-r
 
 ## 🚀 Projects
 
+
 <table width="100%">
   <tr>
     <td width="50%" valign="top">
@@ -141,9 +142,9 @@ I focus on clean architecture, data modeling, testing, and shipping production-r
         <img src="https://raw.githubusercontent.com/arun-pandian-p/arun-pandian-p/main/assets/projects/it-helpdesk.png" width="100%" alt="IT Helpdesk and Incident Management System"/>
       </a>
       <br/><br/>
-      <b>📖 <a href="https://github.com/arun-pandian-p/IT-Helpdesk-and-incident-Management-System">IT-Helpdesk-and-incident-Management-System</a></b>
+      <b><a href="https://github.com/arun-pandian-p/IT-Helpdesk-and-incident-Management-System">IT Helpdesk & Incident Management System</a></b>
       <br/><br/>
-      Enterprise IT Service Desk &amp; Incident Management platform with ticket workflows, SLA monitoring, and role-based access.
+      An enterprise-oriented IT service management platform for handling support requests, tracking incidents, managing ticket lifecycles, monitoring SLA compliance, and enforcing role-based access control.
       <br/><br/>
       <code>Java 21</code> <code>Spring Boot 3</code> <code>React 19</code> <code>TypeScript</code>
     </td>
@@ -152,38 +153,42 @@ I focus on clean architecture, data modeling, testing, and shipping production-r
         <img src="https://raw.githubusercontent.com/arun-pandian-p/arun-pandian-p/main/assets/projects/zappy.png" width="100%" alt="Zappy Restaurant Operating System"/>
       </a>
       <br/><br/>
-      <b>📖 <a href="https://github.com/arun-pandian-p/Zappy">Zappy</a></b> &nbsp;·&nbsp; <a href="https://zappy-ten.vercel.app">🌐 <i>Live Demo</i></a>
+      <b><a href="https://github.com/arun-pandian-p/Zappy">Zappy – Restaurant Operating System</a></b>
+      &nbsp;·&nbsp;
+      <a href="https://zappy-ten.vercel.app">🌐 <i>Live Demo</i></a>
       <br/><br/>
-      Real-time, multi-tenant restaurant operating system and ordering platform with live kitchen display and digital menus.
+      A multi-tenant restaurant management and ordering platform featuring QR-based digital menus, table management, order processing, real-time kitchen operations, and centralized restaurant administration.
       <br/><br/>
-      <code>TypeScript</code> <code>Next.js</code> <code>Supabase</code> <code>Tailwind</code>
+      <code>TypeScript</code> <code>Next.js</code> <code>Supabase</code> <code>Tailwind CSS</code>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/arun-pandian-p/Ap-Desktop">
-        <img src="https://raw.githubusercontent.com/arun-pandian-p/arun-pandian-p/main/assets/projects/ap-desktop.png" width="100%" alt="Ap-Desktop Platform"/>
+        <img src="https://raw.githubusercontent.com/arun-pandian-p/arun-pandian-p/main/assets/projects/ap-desktop.png" width="100%" alt="AP Desktop Coding Platform"/>
       </a>
       <br/><br/>
-      <b>📖 <a href="https://github.com/arun-pandian-p/Ap-Desktop">Ap-Desktop</a></b>
+      <b><a href="https://github.com/arun-pandian-p/Ap-Desktop">AP Desktop – Developer Learning Platform</a></b>
       <br/><br/>
-      Offline-first coding interview preparation &amp; career learning desktop platform combining code IDE and algorithm visualizer.
+      An offline-first desktop application designed for coding practice and technical interview preparation, integrating a code editor, algorithm visualization, and structured learning workflows.
       <br/><br/>
       <code>Electron</code> <code>React 18</code> <code>TypeScript</code> <code>Spring Boot 3.4</code>
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/arun-pandian-p/xai-seizure-prediction-dashboard">
-        <img src="https://raw.githubusercontent.com/arun-pandian-p/arun-pandian-p/main/assets/projects/xai-seizure.jpg" width="100%" alt="XAI Seizure Prediction Dashboard"/>
+        <img src="https://raw.githubusercontent.com/arun-pandian-p/arun-pandian-p/main/assets/projects/xai-seizure.jpg" width="100%" alt="Explainable AI Seizure Prediction Dashboard"/>
       </a>
       <br/><br/>
-      <b>📖 <a href="https://github.com/arun-pandian-p/xai-seizure-prediction-dashboard">xai-seizure-prediction-dashboard</a></b>
+      <b><a href="https://github.com/arun-pandian-p/xai-seizure-prediction-dashboard">Explainable AI – Seizure Prediction Dashboard</a></b>
       <br/><br/>
-      Explainable AI healthcare dashboard analyzing EEG brainwave signals with deep learning feature attribution heatmaps.
+      An AI-powered healthcare analytics application that processes EEG signals for seizure prediction, combining deep learning models with explainable AI techniques to visualize model predictions and feature attribution.
       <br/><br/>
-      <code>Python</code> <code>PyTorch</code> <code>Streamlit</code> <code>XAI</code>
+      <code>Python</code> <code>PyTorch</code> <code>Streamlit</code> <code>Explainable AI</code>
     </td>
   </tr>
 </table>
+
+
 
 <details>
 <summary><b>📋 All Recent Repositories (Auto-synced)</b></summary>
@@ -192,19 +197,19 @@ I focus on clean architecture, data modeling, testing, and shipping production-r
 <!-- PINNED:START -->
 | Project | What it is | Stack | ⭐ | Last push |
 |---|---|---|---|---|
-| [**Zappy**](https://github.com/arun-pandian-p/Zappy) | — | TypeScript | 1 | 2026-10-31 |
-| [**IT-Helpdesk-and-incident-Management-Syst**](https://github.com/arun-pandian-p/IT-Helpdesk-and-incident-Management-System) | ITIL-inspired IT Helpdesk & Incident Management System — FastAPI, React 19, PostgreSQL, Do | TypeScript | 0 | 2026-10-23 |
-| [**Ap-Desktop**](https://github.com/arun-pandian-p/Ap-Desktop) | — | TypeScript | 0 | 2026-10-20 |
-| [**xai-seizure-prediction-dashboard**](https://github.com/arun-pandian-p/xai-seizure-prediction-dashboard) | — | Python | 0 | 2026-08-28 |
-| [**carpedium**](https://github.com/carpediemtechofficial-oss/carpedium) | — | TypeScript | 0 | 2026-07-13 |
+| [**Zappy**](https://github.com/arun-pandian-p/Zappy) | Multi-tenant restaurant SaaS with QR menus, order management, table operations, and real-time kitchen workflows. | TypeScript,Java SpringBoot,JPA | 1 | 2026-10-31 |
+| [**IT Helpdesk & Incident Management**](https://github.com/arun-pandian-p/IT-Helpdesk-and-incident-Management-System) | ITIL-inspired service desk platform with incident tracking, ticket lifecycle management, SLA monitoring, and role-based access control. | TypeScript,Java Springboot,JPA,Supabase(Postgres) | 0 | 2026-10-23 |
+| [**AP Desktop**](https://github.com/arun-pandian-p/Ap-Desktop) | Offline-first developer learning platform featuring an integrated code editor, coding practice, and algorithm visualization. | React,Electron,Postgres,Java SpringBoot | 0 | 2026-10-20 |
+| [**XAI Seizure Prediction Dashboard**](https://github.com/arun-pandian-p/xai-seizure-prediction-dashboard) | Explainable AI application for EEG-based seizure prediction using deep learning and model interpretability visualizations. | Python,Gradio,SHAP-LIME | 0 | 2026-08-28 |
+| [**Carpe Diem**](https://github.com/carpediemtechofficial-oss/carpedium) | Company web platform featuring modern frontend experiences and backend integrations for business enquiries and administration. | TypeScript | 0 | 2026-07-13 |
 <!-- PINNED:END -->
 
-- [**carpedium**](https://github.com/carpediemtechofficial-oss/carpedium): TypeScript · organization repository
-- Browse everything on my [repositories page](https://github.com/arun-pandian-p?tab=repositories)
+- [**Carpe Diem**](https://github.com/carpediemtechofficial-oss/carpedium): TypeScript · Organization repository
+- Explore all my projects on my [GitHub repositories page](https://github.com/arun-pandian-p?tab=repositories).
 
 </details>
 
-<div align="right"><a href="#top">⬆ back to top</a></div>
+<div align="right"><a href="#top">⬆ Back to top</a></div>
 
 ---
 
