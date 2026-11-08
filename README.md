@@ -1,5 +1,10 @@
 <a id="top"></a>
 
+<!-- ═══════════════════════ WAVE ANIMATION ═══════════════════════ -->
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&custom_color_list=0:70a5fd,50:bf91f3,100:38bdae&height=120&section=header&animation=twinkling" width="100%" alt="Header Wave Animation"/>
+</div>
+
 <!-- ═══════════════════════ HEADER BANNER ═══════════════════════ -->
 <div align="center">
   <a href="https://github.com/arun-pandian-p">
@@ -86,6 +91,14 @@ I focus on clean architecture, data modeling, testing, and shipping production-r
 ---
 
 ## 🛠️ Tech Stack
+
+<div align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=java,spring,hibernate,postgres,mysql,docker,git,githubactions,python,ts,react,postman,kafka&theme=dark" alt="Skill Icons Animation" />
+  </a>
+</div>
+
+<br/>
 
 **Backend**
 
@@ -266,28 +279,36 @@ I focus on clean architecture, data modeling, testing, and shipping production-r
 
 <div align="center">
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=arun-pandian-p&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&include_all_commits=true&count_private=true" alt="GitHub stats" />
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=arun-pandian-p&layout=compact&theme=radical&hide_border=true&bg_color=0d1117&langs_count=8" alt="Top languages" />
+<img height="180" src="https://github-readme-stats-eight-theta.vercel.app/api?username=arun-pandian-p&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&title_color=70a5fd&icon_color=70a5fd" alt="GitHub stats" />
+<img height="180" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=arun-pandian-p&layout=compact&theme=radical&hide_border=true&bg_color=0d1117&title_color=70a5fd" alt="Top languages" />
 
-<br/>
+<br/><br/>
 
-<img src="https://streak-stats.demolab.com?user=arun-pandian-p&theme=radical&hide_border=true&background=0d1117&ring=FF8A3D&fire=FF8A3D&currStreakLabel=FF8A3D" alt="GitHub streak" />
+<img src="https://streak-stats.demolab.com?user=arun-pandian-p&theme=radical&hide_border=true&background=0d1117&ring=70a5fd&fire=70a5fd&currStreakLabel=70a5fd&dates=ffffff" alt="GitHub streak" />
 
 </div>
-
-<sub>Third-party cards can hit rate limits. If one doesn't load, see my <a href="https://github.com/arun-pandian-p">profile</a> directly.</sub>
 
 <div align="right"><a href="#top">⬆ back to top</a></div>
 
 ---
 
-## 🐍 Contribution Snake
+## 🐍 Contribution Snake & 3D City
 
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/arun-pandian-p/arun-pandian-p/output/github-snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/arun-pandian-p/arun-pandian-p/output/github-snake.svg" />
     <img alt="Contribution snake animation" src="https://raw.githubusercontent.com/arun-pandian-p/arun-pandian-p/output/github-snake.svg" />
+  </picture>
+</div>
+
+<br/>
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/arun-pandian-p/arun-pandian-p/main/profile-3d-contrib/profile-night-rainbow.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/arun-pandian-p/arun-pandian-p/main/profile-3d-contrib/profile-green.svg" />
+    <img alt="Arun Pandian 3D Contribution Graph" src="https://raw.githubusercontent.com/arun-pandian-p/arun-pandian-p/main/profile-3d-contrib/profile-night-rainbow.svg" width="100%" />
   </picture>
 </div>
 
@@ -311,7 +332,7 @@ I focus on clean architecture, data modeling, testing, and shipping production-r
 
 <sub>_Last refreshed:_</sub>
 <!-- UPDATED:START -->
-<sub>_Last refreshed: 08 Nov 2026, 05:44 UTC_</sub>
+<sub>_Last refreshed: 08 Nov 2026, 05:54 UTC_</sub>
 <!-- UPDATED:END -->
 
 </div>

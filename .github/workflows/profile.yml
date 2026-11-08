@@ -1,4 +1,4 @@
-name: Update GitHub Profile & Snake
+name: Update GitHub Profile & Animations
 
 on:
   schedule:
@@ -69,3 +69,21 @@ jobs:
           allow_empty_commit: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  contrib-3d:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+      - name: Commit & push 3D contrib
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A profile-3d-contrib
+          if ! git diff --cached --quiet; then
+            git commit -m "chore(profile): update 3D contribution graph [skip ci]"
+            git push
+          fi
