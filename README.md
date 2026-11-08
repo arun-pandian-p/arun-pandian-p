@@ -1,4 +1,3 @@
-
 <a id="top"></a>
 
 <!-- ═══════════════════════ HEADER BANNER ═══════════════════════ -->
@@ -197,11 +196,16 @@ I focus on clean architecture, data modeling, testing, and shipping production-r
 <!-- PINNED:START -->
 | Project | What it is | Stack | ⭐ | Last push |
 |---|---|---|---|---|
-| [**Zappy**](https://github.com/arun-pandian-p/Zappy) | Multi-tenant restaurant SaaS platform featuring QR digital menus, table management, order  | TypeScript | 1 | 2026-10-31 |
-| [**IT-Helpdesk-and-incident-Management-Syst**](https://github.com/arun-pandian-p/IT-Helpdesk-and-incident-Management-System) | Enterprise IT service management platform featuring incident tracking, ticket lifecycle wo | TypeScript | 0 | 2026-10-23 |
+| [**bookstore**](https://github.com/arun-pandian-p/bookstore) | BookSky is a simple interactive book management application built with HTML, CSS, and Vanilla JavaScript. Users can add, | CSS | 0 | 2026-11-08 |
+| [**arun-pandian-p**](https://github.com/arun-pandian-p/arun-pandian-p) | — | Python | 0 | 2026-11-08 |
+| [**xai-seizure-prediction-dashboard**](https://github.com/arun-pandian-p/xai-seizure-prediction-dashboard) | Explainable AI healthcare application for EEG-based seizure prediction, combining deep learning models with feature attr | Python | 0 | 2026-11-05 |
+| [**test**](https://github.com/arun-pandian-p/test) | Improve frontend design skills through building a personal portfolio. | CSS | 0 | 2026-11-04 |
+| [**arunpandian.online**](https://github.com/arun-pandian-p/arunpandian.online) | — | TypeScript | 0 | 2026-11-01 |
+| [**blog.arunpandian.online**](https://github.com/arun-pandian-p/blog.arunpandian.online) | — | TypeScript | 0 | 2026-11-01 |
+| [**Zappy**](https://github.com/arun-pandian-p/Zappy) | Multi-tenant restaurant SaaS platform featuring QR digital menus, table management, order processing, real-time kitchen  | TypeScript | 1 | 2026-10-31 |
+| [**OOPS-problems**](https://github.com/arun-pandian-p/OOPS-problems) | — | Java | 0 | 2026-10-30 |
+| [**IT-Helpdesk-and-incident-Management-System**](https://github.com/arun-pandian-p/IT-Helpdesk-and-incident-Management-System) | Enterprise IT service management platform featuring incident tracking, ticket lifecycle workflows, SLA monitoring, role- | TypeScript | 0 | 2026-10-23 |
 | [**Ap-Desktop**](https://github.com/arun-pandian-p/Ap-Desktop) | — | TypeScript | 0 | 2026-10-20 |
-| [**xai-seizure-prediction-dashboard**](https://github.com/arun-pandian-p/xai-seizure-prediction-dashboard) | Explainable AI healthcare application for EEG-based seizure prediction, combining deep lea | Python | 0 | 2026-11-05 |
-| [**carpedium**](https://github.com/carpediemtechofficial-oss/carpedium) | — | TypeScript | 0 | 2026-07-13 |
 <!-- PINNED:END -->
 
 - [**Carpe Diem**](https://github.com/carpediemtechofficial-oss/carpedium): TypeScript · Organization repository
@@ -218,7 +222,11 @@ I focus on clean architecture, data modeling, testing, and shipping production-r
 <sub>Latest public commits, updated automatically.</sub>
 
 <!-- ACTIVITY:START -->
-_No recent public commits yet._
+- **[xai-seizure-prediction-dashboard](https://github.com/arun-pandian-p/xai-seizure-prediction-dashboard)** — [major update ui/ux](https://github.com/arun-pandian-p/xai-seizure-prediction-dashboard/commit/c1db5cdc5142be1e5caf5b6ef2dec54b0f17c358) · `c1db5cd` · 2026-11-05
+- **[Zappy](https://github.com/arun-pandian-p/Zappy)** — [Completed phase 2 and 3](https://github.com/arun-pandian-p/Zappy/commit/467b154bd481f4b4038f198756b524bb88259643) · `467b154` · 2026-10-30
+- **[IT-Helpdesk-and-incident-Management-System](https://github.com/arun-pandian-p/IT-Helpdesk-and-incident-Management-System)** — [Create maven.yml](https://github.com/arun-pandian-p/IT-Helpdesk-and-incident-Management-System/commit/d05a6b903ec511528fc227bff866e80f5db5e5ce) · `d05a6b9` · 2026-10-23
+- **[Ap-Desktop](https://github.com/arun-pandian-p/Ap-Desktop)** — [release: v1.3.0 - windows-app-template reorganization, Spring Boot backend sidecar, CI/CD,](https://github.com/arun-pandian-p/Ap-Desktop/commit/dc43639f2ec16bdd7bf36df828a6213e55e4c347) · `dc43639` · 2026-10-20
+- **[carpedium](https://github.com/carpediemtechofficial-oss/carpedium)** — [chore: organize directory structure and update alert UI](https://github.com/carpediemtechofficial-oss/carpedium/commit/20276922e4217e361e449285628c21d0a5cbb8ba) · `2027692` · 2026-07-13
 <!-- ACTIVITY:END -->
 
 <div align="right"><a href="#top">⬆ back to top</a></div>
@@ -303,7 +311,7 @@ _No recent public commits yet._
 
 <sub>_Last refreshed:_</sub>
 <!-- UPDATED:START -->
-<sub>_08 Nov 2026, 05:16 UTC_</sub>
+<sub>_Last refreshed: 08 Nov 2026, 05:44 UTC_</sub>
 <!-- UPDATED:END -->
 
 </div>

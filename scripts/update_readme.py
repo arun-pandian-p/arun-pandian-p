@@ -1,196 +1,204 @@
 #!/usr/bin/env python3
-"""Refreshes the auto-generated sections of README.md.
-
-Each section is delimited by <!-- NAME:START --> and <!-- NAME:END -->.
-A failing section keeps its old content, so one API error never breaks the README.
+"""Auto-updates README sections: PINNED, ACTIVITY, MILESTONES, and UPDATED timestamp.
 """
-import datetime
+
+import json
 import os
-import pathlib
 import re
-import sys
+import urllib.request
+from datetime import datetime, timezone
+from pathlib import Path
 
-import requests
-import yaml
+BASE_DIR = Path(__file__).resolve().parent.parent
+README_FILE = BASE_DIR / "README.md"
+CONFIG_FILE = BASE_DIR / "config" / "projects.json"
+MILESTONES_FILE = BASE_DIR / "profile" / "milestones.yml"
 
-USER = os.environ.get("GH_USER", "arun-pandian-p")
 TOKEN = os.environ.get("GITHUB_TOKEN", "").strip()
-ROOT = pathlib.Path(__file__).resolve().parent.parent
-README = ROOT / "README.md"
-MILESTONES = ROOT / "profile" / "milestones.yml"
 API = "https://api.github.com"
 
 HEADERS = {
     "Accept": "application/vnd.github+json",
+    "User-Agent": "GitHub-Profile-Automation",
     "X-GitHub-Api-Version": "2022-11-28",
-    "User-Agent": "profile-readme-bot",
 }
 if TOKEN:
     HEADERS["Authorization"] = f"Bearer {TOKEN}"
 
 
-def get(url):
-    r = requests.get(url, headers=HEADERS, timeout=30)
-    r.raise_for_status()
-    return r.json()
+def github_get(endpoint):
+    request = urllib.request.Request(API + endpoint, headers=HEADERS)
+    with urllib.request.urlopen(request, timeout=30) as response:
+        return json.loads(response.read().decode("utf-8"))
 
 
-def clean(text, limit=90):
-    """Make a string safe inside a markdown table cell or list item."""
-    if not text:
+def clean(value, limit=120):
+    if not value:
         return ""
-    first = str(text).strip().splitlines()[0] if str(text).strip() else ""
-    first = first.replace("|", "/").replace("[", "(").replace("]", ")")
-    return first[:limit]
+    text = str(value).replace("|", "\\|").replace("\n", " ").strip()
+    return text[:limit]
 
 
-# ---------- Projects ----------
-
-def pinned_repos():
-    """Pinned repos via GraphQL (needs a token). Returns [] if unavailable."""
-    if not TOKEN:
-        return []
-    query = """
-    query($login: String!) {
-      user(login: $login) {
-        pinnedItems(first: 6, types: REPOSITORY) {
-          nodes { ... on Repository {
-            name url description stargazerCount pushedAt
-            primaryLanguage { name }
-          } }
-        }
-      }
-    }"""
-    r = requests.post(
-        f"{API}/graphql",
-        json={"query": query, "variables": {"login": USER}},
-        headers=HEADERS,
-        timeout=30,
-    )
-    r.raise_for_status()
-    body = r.json()
-    if body.get("errors"):
-        raise RuntimeError(body["errors"][0].get("message", "graphql error"))
-    nodes = (body.get("data") or {}).get("user", {}) or {}
-    return (nodes.get("pinnedItems") or {}).get("nodes") or []
+def replace_section(content, start, end, new_content):
+    start_marker = f"<!-- {start} -->"
+    end_marker = f"<!-- {end} -->"
+    if start_marker not in content or end_marker not in content:
+        print(f"Notice: Missing README markers {start} / {end}, skipping.")
+        return content
+    before, remaining = content.split(start_marker, 1)
+    _, after = remaining.split(end_marker, 1)
+    return before + start_marker + "\n" + new_content.strip() + "\n" + end_marker + after
 
 
-def project_rows():
-    rows = []
-    try:
-        for n in pinned_repos():
-            rows.append({
-                "name": n["name"],
-                "url": n["url"],
-                "desc": n.get("description"),
-                "stars": n.get("stargazerCount", 0),
-                "lang": (n.get("primaryLanguage") or {}).get("name") or "—",
-                "pushed": (n.get("pushedAt") or "")[:10],
-            })
-    except Exception as exc:
-        print(f"pinned lookup failed, using recent repos: {exc}")
-
-    if not rows:
-        repos = get(f"{API}/users/{USER}/repos?sort=pushed&per_page=6&type=owner")
-        for r in repos:
-            if r.get("fork"):
+def fetch_selected_commits(projects, limit):
+    commits = []
+    for repo in projects:
+        try:
+            data = github_get(f"/repos/{repo}/commits?per_page=1")
+            if not data or not isinstance(data, list):
                 continue
-            rows.append({
-                "name": r["name"],
-                "url": r["html_url"],
-                "desc": r.get("description"),
-                "stars": r.get("stargazers_count", 0),
-                "lang": r.get("language") or "—",
-                "pushed": (r.get("pushed_at") or "")[:10],
+            commit = data[0]
+            details = commit.get("commit", {})
+            committer_info = details.get("committer") or details.get("author") or {}
+            commit_date = committer_info.get("date", "")
+
+            commits.append({
+                "repo": repo,
+                "message": details.get("message", "").split("\n")[0],
+                "sha": commit.get("sha", "")[:7],
+                "url": commit.get("html_url", ""),
+                "date": commit_date,
             })
-    return rows[:6]
+        except Exception as error:
+            print(f"Warning: Could not fetch commits for {repo}: {error}")
+
+    commits.sort(key=lambda item: item["date"], reverse=True)
+    return commits[:limit]
 
 
-def projects_md():
-    rows = project_rows()
-    if not rows:
-        return "_No public projects found._"
-    lines = ["| Project | What it is | Stack | ⭐ | Last push |", "|---|---|---|---|---|"]
-    for r in rows:
+def generate_activity(commits):
+    if not commits:
+        return "_No recent public commits found._"
+    rows = []
+    for item in commits:
+        repo_name = item["repo"].split("/")[-1]
+        commit_date = item["date"][:10] if len(item["date"]) >= 10 else "Recently"
+        rows.append(
+            f"- **[{clean(repo_name)}](https://github.com/{item['repo']})** "
+            f"— [{clean(item['message'], 90)}]({item['url']}) "
+            f"· `{item['sha']}` "
+            f"· {commit_date}"
+        )
+    return "\n".join(rows)
+
+
+def fetch_repositories(username, limit):
+    repos = github_get(f"/users/{username}/repos?type=owner&sort=pushed&per_page=100")
+    if not isinstance(repos, list):
+        return []
+    valid_repos = [repo for repo in repos if not repo.get("fork") and not repo.get("archived")]
+    return valid_repos[:limit]
+
+
+def generate_repository_table(repos):
+    rows = [
+        "| Project | What it is | Stack | ⭐ | Last push |",
+        "|---|---|---|---|---|",
+    ]
+    for repo in repos:
+        name = clean(repo.get("name"))
+        description = clean(repo.get("description")) or "—"
+        language = clean(repo.get("language")) or "—"
+        stars = repo.get("stargazers_count", 0)
+        pushed = repo.get("pushed_at", "")[:10] if repo.get("pushed_at") else "—"
+        rows.append(
+            f"| [**{name}**]({repo.get('html_url')}) | {description} | {language} | {stars} | {pushed} |"
+        )
+    return "\n".join(rows)
+
+
+def load_milestones():
+    if not MILESTONES_FILE.exists():
+        return ""
+    try:
+        import yaml
+        data = yaml.safe_load(MILESTONES_FILE.read_text(encoding="utf-8")) or []
+    except Exception:
+        # Fallback manual parser if pyyaml is not installed
+        content = MILESTONES_FILE.read_text(encoding="utf-8")
+        entries = content.split("- date:")
+        data = []
+        for entry in entries[1:]:
+            date_m = re.search(r'["\'](.*?)["\']', entry)
+            title_m = re.search(r'title:\s*["\']?(.*?)["\']?\n', entry)
+            detail_m = re.search(r'detail:\s*["\']?(.*?)["\']?\n', entry)
+            icon_m = re.search(r'icon:\s*["\']?(.*?)["\']?\n', entry)
+            if title_m:
+                data.append({
+                    "date": date_m.group(1) if date_m else "",
+                    "title": title_m.group(1) if title_m else "",
+                    "detail": detail_m.group(1) if detail_m else "",
+                    "icon": icon_m.group(1) if icon_m else "🎯",
+                })
+
+    data = [m for m in data if isinstance(m, dict) and m.get("title")]
+    data.sort(key=lambda m: str(m.get("date", "")), reverse=True)
+
+    lines = []
+    for m in data[:6]:
+        icon = m.get("icon", "🎯")
         lines.append(
-            f"| [**{clean(r['name'], 40)}**]({r['url']}) | "
-            f"{clean(r['desc']) or '—'} | {clean(r['lang'], 30)} | "
-            f"{r['stars']} | {r['pushed'] or '—'} |"
+            f"- {icon} **{m['title']}** · `{m.get('date', '')}`  \n"
+            f"  {m.get('detail', '')}"
         )
     return "\n".join(lines)
 
 
-# ---------- Recent commits ----------
-
-def activity_md():
-    events = get(f"{API}/users/{USER}/events/public?per_page=100")
-    items = []
-    for e in events:
-        if e.get("type") != "PushEvent":
-            continue
-        repo = e.get("repo", {}).get("name", "")
-        day = (e.get("created_at") or "")[:10]
-        for c in e.get("payload", {}).get("commits", []):
-            msg = clean(c.get("message"), 80) or "(no message)"
-            sha = c.get("sha", "")
-            items.append(
-                f"- `{day}` · [{repo}](https://github.com/{repo}) · "
-                f"[{msg}](https://github.com/{repo}/commit/{sha})"
-            )
-            if len(items) >= 8:
-                return "\n".join(items)
-    return "\n".join(items) or "_No recent public commits yet._"
-
-
-# ---------- Milestones ----------
-
-def milestones_md():
-    if not MILESTONES.exists():
-        return "_No milestones file yet._"
-    data = yaml.safe_load(MILESTONES.read_text(encoding="utf-8")) or []
-    data = [m for m in data if isinstance(m, dict) and m.get("title")]
-    data.sort(key=lambda m: str(m.get("date", "")), reverse=True)
-    lines = []
-    for m in data[:6]:
-        lines.append(
-            f"- {m.get('icon', '🏁')} **{m['title']}** · `{m.get('date', '')}`  \n"
-            f"  {m.get('detail', '')}"
-        )
-    return "\n".join(lines) or "_No milestones yet._"
-
-
-# ---------- Marker replacement ----------
-
-def replace(text, name, content):
-    pattern = re.compile(rf"(<!-- {name}:START -->)(.*?)(<!-- {name}:END -->)", re.S)
-    if not pattern.search(text):
-        print(f"marker {name} not found, skipping")
-        return text
-    # lambda avoids backslash escapes in content being interpreted
-    return pattern.sub(lambda m: f"{m.group(1)}\n{content}\n{m.group(3)}", text, count=1)
-
-
-def safe(fn, fallback):
-    try:
-        return fn()
-    except Exception as exc:
-        print(f"{fn.__name__} failed: {exc}")
-        return fallback
-
-
 def main():
-    text = README.read_text(encoding="utf-8")
-    now = datetime.datetime.now(datetime.timezone.utc)
+    if not CONFIG_FILE.exists():
+        raise FileNotFoundError(f"Config file not found: {CONFIG_FILE}")
 
-    text = replace(text, "PINNED", safe(projects_md, "_Projects unavailable right now._"))
-    text = replace(text, "ACTIVITY", safe(activity_md, "_Activity unavailable right now._"))
-    text = replace(text, "MILESTONES", safe(milestones_md, "_Milestones unavailable right now._"))
-    text = replace(text, "UPDATED", f"<sub>_{now:%d %b %Y, %H:%M} UTC_</sub>")
+    with open(CONFIG_FILE, "r", encoding="utf-8") as file:
+        config = json.load(file)
 
-    README.write_text(text, encoding="utf-8")
-    print("README refreshed")
-    return 0
+    username = config.get("username", "arun-pandian-p")
+    projects = config.get("featured_projects", [])
+
+    with open(README_FILE, "r", encoding="utf-8") as file:
+        readme = file.read()
+
+    # 1. Update selected project commits
+    commits = fetch_selected_commits(projects, config.get("recent_activity_limit", 10))
+    activity = generate_activity(commits)
+    readme = replace_section(readme, "ACTIVITY:START", "ACTIVITY:END", activity)
+
+    # 2. Update public repository table
+    repos = fetch_repositories(username, config.get("repository_limit", 10))
+    repository_table = generate_repository_table(repos)
+    readme = replace_section(readme, "PINNED:START", "PINNED:END", repository_table)
+
+    # 3. Update milestones if present
+    milestones = load_milestones()
+    if milestones:
+        readme = replace_section(readme, "MILESTONES:START", "MILESTONES:END", milestones)
+
+    # 4. Update timestamp
+    timestamp = datetime.now(timezone.utc).strftime("%d %b %Y, %H:%M UTC")
+    readme = replace_section(
+        readme,
+        "UPDATED:START",
+        "UPDATED:END",
+        f"<sub>_Last refreshed: {timestamp}_</sub>",
+    )
+
+    with open(README_FILE, "w", encoding="utf-8") as file:
+        file.write(readme)
+
+    print("GitHub profile README updated successfully!")
+    print(f"Selected projects checked: {len(projects)}")
+    print(f"Recent commits found: {len(commits)}")
+    print(f"Repositories displayed: {len(repos)}")
 
 
 if __name__ == "__main__":
-    sys.exit(main())
+    main()

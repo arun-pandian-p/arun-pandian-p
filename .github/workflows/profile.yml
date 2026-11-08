@@ -1,4 +1,4 @@
-name: Refresh profile README
+name: Update GitHub Profile & Snake
 
 on:
   schedule:
@@ -7,9 +7,10 @@ on:
   push:
     branches: [main]
     paths:
+      - "config/**"
       - "profile/**"
       - "scripts/**"
-      - ".github/workflows/profile.yml"
+      - ".github/workflows/**"
 
 permissions:
   contents: write
@@ -22,34 +23,31 @@ jobs:
   readme:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - uses: actions/setup-python@v5
+      - name: Setup Python
+        uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
-      - name: Install dependencies
-        run: pip install --quiet requests pyyaml
-
-      - name: Refresh README sections
+      - name: Run profile updater
         env:
-          GH_USER: ${{ github.repository_owner }}
-          # Optional: a classic PAT with public_repo/read:user. Falls back to GITHUB_TOKEN.
-          GITHUB_TOKEN: ${{ secrets.PROFILE_TOKEN || secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/update_readme.py
 
       - name: Commit if changed
         run: |
-          git config user.name "profile-bot"
+          git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add README.md
-          if git diff --cached --quiet; then
-            echo "No README changes to commit."
-          else
-            git commit -m "chore(profile): refresh README"
+          if ! git diff --cached --quiet; then
+            git commit -m "chore(profile): auto-refresh README [skip ci]"
             git push
+          else
+            echo "No README changes detected."
           fi
 
   snake:
