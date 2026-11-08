@@ -9,14 +9,13 @@
 <div align="center">
   <a href="https://github.com/arun-pandian-p">
     <img width="2048" height="768" alt="Arun Pandian Developer Portfolio Banner (1)" src="https://github.com/user-attachments/assets/1dd1e66b-6a62-4f78-983b-1fe67f1b55b5" />
-    <!-- <img src="https://raw.githubusercontent.com/arun-pandian-p/arun-pandian-p/main/assets/banner.svg" width="100%" alt="Arun Pandian banner"/> -->
   </a>
 </div>
 
 <!-- ═══════════════════════ TYPING ANIMATION ═══════════════════════ -->
 <div align="center">
   <a href="https://github.com/arun-pandian-p">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=70A5FD&center=true&vCenter=true&multiline=false&repeat=true&width=740&lines=Designing+systems+that+scale+%E2%9A%99%EF%B8%8F;Java+%26+Spring+Boot+Backend+Developer+%F0%9F%9A%80;Clean+REST+APIs+%26+Scalable+Microservices;Solving+DSA+%26+System+Design+Daily+%F0%9F%A7%A0;Building+distributed%2C+fault-tolerant+backends;Open+to+SDE+opportunities+%F0%9F%91%8B" alt="Typing animation" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=70A5FD&center=true&vCenter=true&multiline=false&repeat=true&width=740&lines=Designing+systems+that+scale;Java+%26+Spring+Boot+Backend+Developer;Clean+REST+APIs+%26+Scalable+Microservices;Solving+DSA+%26+System+Design+Daily;Building+distributed%2C+fault-tolerant+backends;Open+to+SDE+opportunities" alt="Typing animation" />
   </a>
 </div>
 
@@ -43,54 +42,54 @@
 **Software engineer building scalable backend services and REST APIs with Java and Spring Boot.**<br/>
 I focus on clean architecture, data modeling, testing, and shipping production-ready code.
 
-<sub>📍 Coimbatore, India &nbsp;·&nbsp; 🎓 B.Tech AI & Data Science (2026) &nbsp;·&nbsp; 🏢 <a href="https://github.com/AdSavvy-LLP">@AdSavvy-LLP</a></sub>
+<sub><img src="assets/icons/location.svg" width="14" height="14" valign="middle"/> Coimbatore, India &nbsp;·&nbsp; <img src="assets/icons/school.svg" width="14" height="14" valign="middle"/> B.Tech AI & Data Science (2026) &nbsp;·&nbsp; <img src="assets/icons/business.svg" width="14" height="14" valign="middle"/> <a href="https://github.com/AdSavvy-LLP">@AdSavvy-LLP</a></sub>
 
 <br/><br/>
 
-[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-arunpandian.online-70a5fd?style=for-the-badge&labelColor=1a1b27)](https://arunpandian.online)
+[![Portfolio](https://img.shields.io/badge/Portfolio-arunpandian.online-70a5fd?style=for-the-badge&labelColor=1a1b27)](https://arunpandian.online)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/arunpandianp-dataanalyst)
 [![Email](https://img.shields.io/badge/Email-Say_Hello-B5179E?style=for-the-badge&logo=gmail&logoColor=white)](mailto:arunpandi47777@gmail.com)
 
 <br/>
 
-[**About**](#-about) • [**Now**](#-now) • [**Stack**](#%EF%B8%8F-tech-stack) • [**Projects**](#-projects) • [**Activity**](#-recent-activity) • [**Milestones**](#-milestones) • [**Stats**](#-github-stats) • [**Connect**](#-connect)
+[**About**](#about) • [**Now**](#now) • [**Tech Stack**](#tech-stack) • [**Projects**](#projects) • [**Activity**](#recent-activity) • [**Milestones**](#milestones) • [**Experience**](#experience) • [**Contributions**](#contribution-activity--3d-city) • [**Connect**](#connect)
 
 </div>
 
 ---
 
-## 🙋 About
+## <img src="assets/icons/person.svg" width="22" height="22" valign="middle"/> About
 
 <img align="right" src="https://raw.githubusercontent.com/arun-pandian-p/arun-pandian-p/main/assets/profile-circle.png" width="180" alt="Arun Pandian" />
 
-- ☕ **Backend-first**: REST APIs with **Java** and **Spring Boot**, with validation, security, and tests
-- 🗄️ **Data layer**: schema design and queries in **PostgreSQL** and **MySQL**, with **JPA / Hibernate**
-- 🐳 **Shipping**: containerized services with **Docker**, versioned with **Git**, built with **Maven**
-- 🏆 **DSA grinder**: solving problems on LeetCode daily, focused on arrays, strings, trees, graphs, and DP
-- 🧠 **Learning**: system design, distributed patterns, and adding AI features to backend services
-- 🎓 **B.Tech** in AI & Data Science, EASA College of Engineering & Technology
+- **Backend-first**: REST APIs with **Java** and **Spring Boot**, with validation, security, and tests
+- **Data layer**: Schema design and queries in **PostgreSQL** and **MySQL**, with **JPA / Hibernate**
+- **Shipping**: Containerized services with **Docker**, versioned with **Git**, built with **Maven**
+- **Problem Solving**: Daily algorithmic problem solving across arrays, strings, trees, graphs, and dynamic programming
+- **Continuous Learning**: System design, distributed architectures, and AI integration for backend services
+- **Education**: B.Tech in AI & Data Science, EASA College of Engineering & Technology
 
 <br clear="right"/>
 
 > *"Clean code always looks like it was written by someone who cares."* — Robert C. Martin
 
-<div align="right"><a href="#top">⬆ back to top</a></div>
+<div align="right"><a href="#top">back to top</a></div>
 
 ---
 
-## 🔭 Now
+## <img src="assets/icons/explore.svg" width="22" height="22" valign="middle"/> Now
 
 <!-- Edit this list by hand whenever your focus changes -->
-- 🛠️ Building REST APIs with Spring Security, JPA, and MySQL
-- 🧪 Writing unit and integration tests for Spring Boot services
-- 🧠 Practicing DSA and system design, one topic at a time
-- 🔗 Exploring AI features inside backend services
+- Building REST APIs with Spring Security, JPA, and MySQL
+- Writing unit and integration tests for Spring Boot services
+- Practicing DSA and system design, one topic at a time
+- Exploring AI features inside backend services
 
-<div align="right"><a href="#top">⬆ back to top</a></div>
+<div align="right"><a href="#top">back to top</a></div>
 
 ---
 
-## 🛠️ Tech Stack
+## <img src="assets/icons/code.svg" width="22" height="22" valign="middle"/> Tech Stack
 
 <div align="center">
   <a href="https://skillicons.dev">
@@ -131,7 +130,7 @@ I focus on clean architecture, data modeling, testing, and shipping production-r
   <a href="https://n8n.io/"><img src="https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white" alt="n8n" /></a>
 </p>
 
-**Currently leveling up 🚀**
+**Currently Leveling Up**
 
 <p>
   <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" />
@@ -140,12 +139,11 @@ I focus on clean architecture, data modeling, testing, and shipping production-r
   <img src="https://img.shields.io/badge/Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white" alt="Kafka" />
 </p>
 
-<div align="right"><a href="#top">⬆ back to top</a></div>
+<div align="right"><a href="#top">back to top</a></div>
 
 ---
 
-## 🚀 Projects
-
+## <img src="assets/icons/rocket.svg" width="22" height="22" valign="middle"/> Projects
 
 <table width="100%">
   <tr>
@@ -167,7 +165,7 @@ I focus on clean architecture, data modeling, testing, and shipping production-r
       <br/><br/>
       <b><a href="https://github.com/arun-pandian-p/Zappy">Zappy – Restaurant Operating System</a></b>
       &nbsp;·&nbsp;
-      <a href="https://zappy-ten.vercel.app">🌐 <i>Live Demo</i></a>
+      <a href="https://zappy-ten.vercel.app"><i>Live Demo</i></a>
       <br/><br/>
       A multi-tenant restaurant management and ordering platform featuring QR-based digital menus, table management, order processing, real-time kitchen operations, and centralized restaurant administration.
       <br/><br/>
@@ -200,14 +198,12 @@ I focus on clean architecture, data modeling, testing, and shipping production-r
   </tr>
 </table>
 
-
-
 <details>
-<summary><b>📋 All Recent Repositories (Auto-synced)</b></summary>
+<summary><b>All Recent Repositories (Auto-synced)</b></summary>
 <br/>
 
 <!-- PINNED:START -->
-| Project | What it is | Stack | ⭐ | Last push |
+| Project | What it is | Stack | Stars | Last push |
 |---|---|---|---|---|
 | [**arun-pandian-p**](https://github.com/arun-pandian-p/arun-pandian-p) | — | Python | 0 | 2026-11-08 |
 | [**bookstore**](https://github.com/arun-pandian-p/bookstore) | BookSky is a simple interactive book management application built with HTML, CSS, and Vanilla JavaScript. Users can add, | CSS | 0 | 2026-11-08 |
@@ -226,11 +222,11 @@ I focus on clean architecture, data modeling, testing, and shipping production-r
 
 </details>
 
-<div align="right"><a href="#top">⬆ Back to top</a></div>
+<div align="right"><a href="#top">back to top</a></div>
 
 ---
 
-## ⚡ Recent Activity
+## <img src="assets/icons/bolt.svg" width="22" height="22" valign="middle"/> Recent Activity
 
 <sub>Latest public commits, updated automatically.</sub>
 
@@ -242,57 +238,40 @@ I focus on clean architecture, data modeling, testing, and shipping production-r
 - **[carpedium](https://github.com/carpediemtechofficial-oss/carpedium)** — [chore: organize directory structure and update alert UI](https://github.com/carpediemtechofficial-oss/carpedium/commit/20276922e4217e361e449285628c21d0a5cbb8ba) · `2027692` · 2026-07-13
 <!-- ACTIVITY:END -->
 
-<div align="right"><a href="#top">⬆ back to top</a></div>
+<div align="right"><a href="#top">back to top</a></div>
 
 ---
 
-## 🏁 Milestones
+## <img src="assets/icons/flag.svg" width="22" height="22" valign="middle"/> Milestones
 
 <sub>Edit `profile/milestones.yml` to add entries. The newest six appear here.</sub>
 
 <!-- MILESTONES:START -->
-- 🎓 **B.Tech in AI & Data Science** · `2026-06`  
+- **B.Tech in AI & Data Science** · `2026-06`  
   EASA College of Engineering & Technology, Coimbatore
-- 🏢 **Software Engineering Internship at Carpediem Tech Innovations** · `2025`  
+- **Software Engineering Internship at Carpediem Tech Innovations** · `2025`  
   Backend development internship
-- 🤖 **Software Engineering Internship at Rinex.AI** · `2025`  
+- **Software Engineering Internship at Rinex.AI** · `2025`  
   AI-focused engineering internship
-- 🎯 **Forage software engineering simulations: Deloitte & TCS** · `2025`  
+- **Forage software engineering simulations: Deloitte & TCS** · `2025`  
   Completed software engineering job simulations
 <!-- MILESTONES:END -->
 
-<div align="right"><a href="#top">⬆ back to top</a></div>
+<div align="right"><a href="#top">back to top</a></div>
 
 ---
 
-## 💼 Experience
+## <img src="assets/icons/work.svg" width="22" height="22" valign="middle"/> Experience
 
-- 🏢 **Carpediem Tech Innovations**: Software Engineering Intern
-- 🏢 **Rinex.AI**: Software Engineering Intern
-- 🎯 **Forage Job Simulations**: Deloitte & TCS (software engineering tracks)
+- **Carpediem Tech Innovations**: Software Engineering Intern
+- **Rinex.AI**: Software Engineering Intern
+- **Forage Job Simulations**: Deloitte & TCS (Software Engineering Tracks)
 
-<div align="right"><a href="#top">⬆ back to top</a></div>
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img height="180" src="https://github-readme-stats-eight-theta.vercel.app/api?username=arun-pandian-p&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&title_color=70a5fd&icon_color=70a5fd" alt="GitHub stats" />
-<img height="180" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=arun-pandian-p&layout=compact&theme=radical&hide_border=true&bg_color=0d1117&title_color=70a5fd" alt="Top languages" />
-
-<br/><br/>
-
-<img src="https://streak-stats.demolab.com?user=arun-pandian-p&theme=radical&hide_border=true&background=0d1117&ring=70a5fd&fire=70a5fd&currStreakLabel=70a5fd&dates=ffffff" alt="GitHub streak" />
-
-</div>
-
-<div align="right"><a href="#top">⬆ back to top</a></div>
+<div align="right"><a href="#top">back to top</a></div>
 
 ---
 
-## 🐍 Contribution Snake & 3D City
+## <img src="assets/icons/commit.svg" width="22" height="22" valign="middle"/> Contribution Activity & 3D City
 
 <div align="center">
   <picture>
@@ -312,11 +291,11 @@ I focus on clean architecture, data modeling, testing, and shipping production-r
   </picture>
 </div>
 
-<div align="right"><a href="#top">⬆ back to top</a></div>
+<div align="right"><a href="#top">back to top</a></div>
 
 ---
 
-## 🤝 Connect
+## <img src="assets/icons/handshake.svg" width="22" height="22" valign="middle"/> Connect
 
 <div align="center">
 
@@ -326,13 +305,13 @@ I focus on clean architecture, data modeling, testing, and shipping production-r
 
 <br/>
 
-<sub>Thanks for stopping by. If you have a backend problem worth solving, let's talk. 🌄</sub>
+<sub>Thanks for stopping by. If you have a backend problem worth solving, let's talk.</sub>
 
 <br/><br/>
 
 <sub>_Last refreshed:_</sub>
 <!-- UPDATED:START -->
-<sub>_Last refreshed: 08 Nov 2026, 05:54 UTC_</sub>
+<sub>_Last refreshed: 08 Nov 2026, 06:04 UTC_</sub>
 <!-- UPDATED:END -->
 
 </div>

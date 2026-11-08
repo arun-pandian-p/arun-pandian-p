@@ -102,7 +102,7 @@ def fetch_repositories(username, limit):
 
 def generate_repository_table(repos):
     rows = [
-        "| Project | What it is | Stack | ⭐ | Last push |",
+        "| Project | What it is | Stack | Stars | Last push |",
         "|---|---|---|---|---|",
     ]
     for repo in repos:
@@ -124,7 +124,6 @@ def load_milestones():
         import yaml
         data = yaml.safe_load(MILESTONES_FILE.read_text(encoding="utf-8")) or []
     except Exception:
-        # Fallback manual parser if pyyaml is not installed
         content = MILESTONES_FILE.read_text(encoding="utf-8")
         entries = content.split("- date:")
         data = []
@@ -132,13 +131,11 @@ def load_milestones():
             date_m = re.search(r'["\'](.*?)["\']', entry)
             title_m = re.search(r'title:\s*["\']?(.*?)["\']?\n', entry)
             detail_m = re.search(r'detail:\s*["\']?(.*?)["\']?\n', entry)
-            icon_m = re.search(r'icon:\s*["\']?(.*?)["\']?\n', entry)
             if title_m:
                 data.append({
                     "date": date_m.group(1) if date_m else "",
                     "title": title_m.group(1) if title_m else "",
                     "detail": detail_m.group(1) if detail_m else "",
-                    "icon": icon_m.group(1) if icon_m else "🎯",
                 })
 
     data = [m for m in data if isinstance(m, dict) and m.get("title")]
@@ -146,9 +143,8 @@ def load_milestones():
 
     lines = []
     for m in data[:6]:
-        icon = m.get("icon", "🎯")
         lines.append(
-            f"- {icon} **{m['title']}** · `{m.get('date', '')}`  \n"
+            f"- **{m['title']}** · `{m.get('date', '')}`  \n"
             f"  {m.get('detail', '')}"
         )
     return "\n".join(lines)
