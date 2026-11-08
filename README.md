@@ -196,8 +196,8 @@ I focus on clean architecture, data modeling, testing, and shipping production-r
 <!-- PINNED:START -->
 | Project | What it is | Stack | ⭐ | Last push |
 |---|---|---|---|---|
-| [**bookstore**](https://github.com/arun-pandian-p/bookstore) | BookSky is a simple interactive book management application built with HTML, CSS, and Vanilla JavaScript. Users can add, | CSS | 0 | 2026-11-08 |
 | [**arun-pandian-p**](https://github.com/arun-pandian-p/arun-pandian-p) | — | Python | 0 | 2026-11-08 |
+| [**bookstore**](https://github.com/arun-pandian-p/bookstore) | BookSky is a simple interactive book management application built with HTML, CSS, and Vanilla JavaScript. Users can add, | CSS | 0 | 2026-11-08 |
 | [**xai-seizure-prediction-dashboard**](https://github.com/arun-pandian-p/xai-seizure-prediction-dashboard) | Explainable AI healthcare application for EEG-based seizure prediction, combining deep learning models with feature attr | Python | 0 | 2026-11-05 |
 | [**test**](https://github.com/arun-pandian-p/test) | Improve frontend design skills through building a personal portfolio. | CSS | 0 | 2026-11-04 |
 | [**arunpandian.online**](https://github.com/arun-pandian-p/arunpandian.online) | — | TypeScript | 0 | 2026-11-01 |
