@@ -205,7 +205,8 @@ I focus on clean architecture, data modeling, testing, and shipping production-r
 <!-- PINNED:START -->
 | Project | What it is | Stack | Stars | Last push |
 |---|---|---|---|---|
-| [**arun-pandian-p**](https://github.com/arun-pandian-p/arun-pandian-p) | — | Python | 0 | 2026-11-08 |
+| [**arun-pandian-p**](https://github.com/arun-pandian-p/arun-pandian-p) | — | Python | 0 | 2026-11-09 |
+| [**Student-Management**](https://github.com/arun-pandian-p/Student-Management) | A Student Management System built using PHP, MySQL, HTML, CSS, and JavaScript to manage student information through a si | PHP | 0 | 2026-11-09 |
 | [**bookstore**](https://github.com/arun-pandian-p/bookstore) | BookSky is a simple interactive book management application built with HTML, CSS, and Vanilla JavaScript. Users can add, | CSS | 0 | 2026-11-08 |
 | [**xai-seizure-prediction-dashboard**](https://github.com/arun-pandian-p/xai-seizure-prediction-dashboard) | Explainable AI healthcare application for EEG-based seizure prediction, combining deep learning models with feature attr | Python | 0 | 2026-11-05 |
 | [**test**](https://github.com/arun-pandian-p/test) | Improve frontend design skills through building a personal portfolio. | CSS | 0 | 2026-11-04 |
@@ -214,7 +215,6 @@ I focus on clean architecture, data modeling, testing, and shipping production-r
 | [**Zappy**](https://github.com/arun-pandian-p/Zappy) | Multi-tenant restaurant SaaS platform featuring QR digital menus, table management, order processing, real-time kitchen  | TypeScript | 1 | 2026-10-31 |
 | [**OOPS-problems**](https://github.com/arun-pandian-p/OOPS-problems) | — | Java | 0 | 2026-10-30 |
 | [**IT-Helpdesk-and-incident-Management-System**](https://github.com/arun-pandian-p/IT-Helpdesk-and-incident-Management-System) | Enterprise IT service management platform featuring incident tracking, ticket lifecycle workflows, SLA monitoring, role- | TypeScript | 0 | 2026-10-23 |
-| [**Ap-Desktop**](https://github.com/arun-pandian-p/Ap-Desktop) | — | TypeScript | 0 | 2026-10-20 |
 <!-- PINNED:END -->
 
 - [**Carpe Diem**](https://github.com/carpediemtechofficial-oss/carpedium): TypeScript · Organization repository
@@ -311,7 +311,7 @@ I focus on clean architecture, data modeling, testing, and shipping production-r
 
 <sub>_Last refreshed:_</sub>
 <!-- UPDATED:START -->
-<sub>_Last refreshed: 08 Nov 2026, 21:51 UTC_</sub>
+<sub>_Last refreshed: 09 Nov 2026, 05:28 UTC_</sub>
 <!-- UPDATED:END -->
 
 </div>
