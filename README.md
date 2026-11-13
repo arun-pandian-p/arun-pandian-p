@@ -205,7 +205,7 @@ I focus on clean architecture, data modeling, testing, and shipping production-r
 <!-- PINNED:START -->
 | Project | What it is | Stack | Stars | Last push |
 |---|---|---|---|---|
-| [**arun-pandian-p**](https://github.com/arun-pandian-p/arun-pandian-p) | — | Python | 0 | 2026-11-12 |
+| [**arun-pandian-p**](https://github.com/arun-pandian-p/arun-pandian-p) | — | Python | 0 | 2026-11-13 |
 | [**Student-Management**](https://github.com/arun-pandian-p/Student-Management) | A Student Management System built using PHP, MySQL, HTML, CSS, and JavaScript to manage student information through a si | PHP | 0 | 2026-11-09 |
 | [**bookstore**](https://github.com/arun-pandian-p/bookstore) | BookSky is a simple interactive book management application built with HTML, CSS, and Vanilla JavaScript. Users can add, | CSS | 0 | 2026-11-08 |
 | [**xai-seizure-prediction-dashboard**](https://github.com/arun-pandian-p/xai-seizure-prediction-dashboard) | Explainable AI healthcare application for EEG-based seizure prediction, combining deep learning models with feature attr | Python | 0 | 2026-11-05 |
@@ -311,7 +311,7 @@ I focus on clean architecture, data modeling, testing, and shipping production-r
 
 <sub>_Last refreshed:_</sub>
 <!-- UPDATED:START -->
-<sub>_Last refreshed: 12 Nov 2026, 23:22 UTC_</sub>
+<sub>_Last refreshed: 13 Nov 2026, 14:16 UTC_</sub>
 <!-- UPDATED:END -->
 
 </div>
