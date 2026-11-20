@@ -205,12 +205,12 @@ I focus on clean architecture, data modeling, testing, and shipping production-r
 <!-- PINNED:START -->
 | Project | What it is | Stack | Stars | Last push |
 |---|---|---|---|---|
+| [**test**](https://github.com/arun-pandian-p/test) | Improve frontend design skills through building a personal portfolio. | CSS | 0 | 2026-11-19 |
 | [**arun-pandian-p**](https://github.com/arun-pandian-p/arun-pandian-p) | — | Python | 0 | 2026-11-19 |
 | [**arunpandian.online**](https://github.com/arun-pandian-p/arunpandian.online) | — | TypeScript | 0 | 2026-11-14 |
 | [**Student-Management**](https://github.com/arun-pandian-p/Student-Management) | A Student Management System built using PHP, MySQL, HTML, CSS, and JavaScript to manage student information through a si | PHP | 0 | 2026-11-09 |
 | [**bookstore**](https://github.com/arun-pandian-p/bookstore) | BookSky is a simple interactive book management application built with HTML, CSS, and Vanilla JavaScript. Users can add, | CSS | 0 | 2026-11-08 |
 | [**xai-seizure-prediction-dashboard**](https://github.com/arun-pandian-p/xai-seizure-prediction-dashboard) | Explainable AI healthcare application for EEG-based seizure prediction, combining deep learning models with feature attr | Python | 0 | 2026-11-05 |
-| [**test**](https://github.com/arun-pandian-p/test) | Improve frontend design skills through building a personal portfolio. | CSS | 0 | 2026-11-04 |
 | [**blog.arunpandian.online**](https://github.com/arun-pandian-p/blog.arunpandian.online) | — | TypeScript | 0 | 2026-11-01 |
 | [**Zappy**](https://github.com/arun-pandian-p/Zappy) | Multi-tenant restaurant SaaS platform featuring QR digital menus, table management, order processing, real-time kitchen  | TypeScript | 1 | 2026-10-31 |
 | [**OOPS-problems**](https://github.com/arun-pandian-p/OOPS-problems) | — | Java | 0 | 2026-10-30 |
@@ -311,7 +311,7 @@ I focus on clean architecture, data modeling, testing, and shipping production-r
 
 <sub>_Last refreshed:_</sub>
 <!-- UPDATED:START -->
-<sub>_Last refreshed: 19 Nov 2026, 15:28 UTC_</sub>
+<sub>_Last refreshed: 20 Nov 2026, 00:25 UTC_</sub>
 <!-- UPDATED:END -->
 
 </div>
